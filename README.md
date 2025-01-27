@@ -3,6 +3,7 @@
 - [Descripcion](#descripcion)
 - [Tecnologias](#tecnologias)
 - [Instalacion](#instalacion)
+- [Uso](#uso)
 - [Autor](#autor)
 - [Contacto](#contacto)
 <h3 id="descripcion">Descripcion 📖</h3>
@@ -21,6 +22,9 @@ Clonar repositorio:
 ```sh
 https://github.com/JavierEAcevedoN/Ejercicios-SpringBoot.git
 ```
+<h3 id="uso">Uso ✋</h3>
+
+Para ejecutar los ejercicios abrir cada carpeta deda su raiz propia `ejercicio1`.
 <h3 id="autor">Autor 👤</h3>
 
 - [JavierEAcevedoN](https://github.com/JavierEAcevedoN)
