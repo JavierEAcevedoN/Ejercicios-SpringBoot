@@ -3,17 +3,23 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/style.css" />
-        <script defer src="js/script.js"></script>
-        <title>Rango Primos</title>
+        <link rel="stylesheet" href="/css/style.css"/>
+        <script defer src="/js/script.js"></script>
+        <title>Formulario producto</title>
     </head>
     <body>
-        <h1>Ingresa el rango de numeros:</h1>
-        <form action="./result" method="post" id="formularioProducto">
-            <input type="text" id="nombre" name="nombre" placeholder="ingresa el nombre del producto" required>
-            <input type="number" id="precio" nim="0" name="precio" placeholder="ingresa el precio del producto" required>
-            <input type="text" id="descripcion" name="descripcion" placeholder="ingresa la descripcion del prioducto" required>
-            <input type="submit" id="subir" value="subir">
-        </form>
+        <div>
+            <h1>Ingresa la siguiente informacion:</h1>
+            <form action="/api/producto" method="post" id="formularioProducto">
+                <input type="text" id="nombre" name="nombre" placeholder="ingresa el nombre del producto" required>
+                <input type="number" id="precio" min="0" step="0.01" name="precio" placeholder="ingresa el precio del producto" required>
+                <input type="text" id="descripcion" name="descripcion" placeholder="ingresa la descripcion del prioducto" required>
+                <input type="submit" id="subir" value="subir">
+            </form>
+        </div>
+        <div>
+            <h2>Ver todos los productos</h2>
+            <a href="/api/producto/list">Ver</a>
+        </div>
     </body>
 </html>

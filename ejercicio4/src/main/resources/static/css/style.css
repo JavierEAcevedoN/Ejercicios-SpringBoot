@@ -8,7 +8,14 @@ body {
     margin: 0;
 }
 
-h1 {
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1, h2 {
     text-align: center;
     font-size: 2rem;
     color: #2d3748;
@@ -24,7 +31,7 @@ form {
     max-width: 400px;
 }
 
-input[type="number"] {
+input[type="text"], input[type="number"] {
     width: 100%;
     padding: 0.8rem;
     margin: 0.5rem 0;
@@ -34,7 +41,7 @@ input[type="number"] {
     box-sizing: border-box;
 }
 
-input[type="submit"] {
+input[type="submit"], a {
     width: 100%;
     padding: 0.8rem;
     background-color: #3182ce;
@@ -44,6 +51,12 @@ input[type="submit"] {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+
+a {
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
 }
 
 input[type="submit"]:hover {
